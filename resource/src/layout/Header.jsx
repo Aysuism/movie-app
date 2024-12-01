@@ -30,6 +30,9 @@ const Header = () => {
             <div className="d-flex" role="search">
               <Link to="/login" className="btn btn-outline-success" type="submit">Login</Link>
             </div>
+            <div className="d-flex">
+              <Link to="/dashboard" className="btn btn-outline-success" type="submit">Dashboard</Link>
+            </div>
 
           </div>
         </nav>
